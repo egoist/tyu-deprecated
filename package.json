@@ -1,0 +1,53 @@
+{
+  "name": "test-vue-app",
+  "version": "0.0.0",
+  "description": "Test Vue.js components with no configurations",
+  "repository": {
+    "url": "egoist/test-vue-app",
+    "type": "git"
+  },
+  "main": "lib/index.js",
+  "bin": "bin/cli.js",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "keywords": [
+    "vue",
+    "unit test",
+    "component",
+    "jest"
+  ],
+  "scripts": {
+    "test": "npm run lint && jest",
+    "lint": "xo"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "babel-jest": "^21.2.0",
+    "babel-preset-vue-app": "^1.3.1",
+    "jest": "^21.2.1",
+    "jest-vue": "^0.7.2",
+    "lodash.merge": "^4.6.0",
+    "update-notifier": "^2.2.0",
+    "vue": "^2.4.4",
+    "vue-template-compiler": "^2.4.4"
+  },
+  "devDependencies": {
+    "eslint-config-rem": "^3.0.0",
+    "xo": "^0.18.0"
+  },
+  "xo": {
+    "extends": "rem",
+    "envs": [
+      "jest"
+    ],
+    "rules": {
+      "no-warning-comments": 0
+    }
+  }
+}
