@@ -56,6 +56,10 @@ Then run `test-vue-app` in your project as follows:
 
 Note: Currently, you have to configure `.babelrc` or `babel` field in `package.json` in order to let [jest-vue](https://github.com/eddyerburgh/jest-vue) transform ES2015 code in single file component, I'm trying to make it [use babel-preset-vue-app by default](https://github.com/eddyerburgh/jest-vue/issues/10) since we transform `.js` files here with this preset by default.
 
+### Custom jest config
+
+You can still configure `jest` field in `package.json`, it will be merged into our default jest config.
+
 ## Contributing
 
 1. Fork it!
