@@ -1,7 +1,7 @@
 
 # test-vue-app
 
-[![NPM version](https://img.shields.io/npm/v/test-vue-app.svg?style=flat)](https://npmjs.com/package/test-vue-app) [![NPM downloads](https://img.shields.io/npm/dm/test-vue-app.svg?style=flat)](https://npmjs.com/package/test-vue-app) [![CircleCI](https://circleci.com/gh/egoist/test-vue-app/tree/master.svg?style=shield)](https://circleci.com/gh/egoist/test-vue-app/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate) [![chat](https://img.shields.io/badge/chat-on%20discord-7289DA.svg?style=flat)](https://chat.egoist.moe)
+[![NPM version](https://img.shields.io/npm/v/test-vue-app.svg?style=flat)](https://npmjs.com/package/test-vue-app) [![NPM downloads](https://img.shields.io/npm/dm/test-vue-app.svg?style=flat)](https://npmjs.com/package/test-vue-app) [![CircleCI](https://circleci.com/gh/vue-land/test-vue-app/tree/master.svg?style=shield)](https://circleci.com/gh/vue-land/test-vue-app/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate) [![chat](https://img.shields.io/badge/chat-on%20discord-7289DA.svg?style=flat)](https://chat.egoist.moe)
 
 Test Vue.js components with no configurations.
 
