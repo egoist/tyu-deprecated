@@ -18,7 +18,7 @@ yarn global add test-vue-app
 
 Given a Vue component `Component.vue`:
 
-```js
+```vue
 <template>
   <div>Hello {{ msg }}</div>
 </template>
