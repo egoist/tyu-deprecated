@@ -8,7 +8,10 @@ Test Vue.js components with no configurations.
 ## Install
 
 ```bash
-yarn global add test-vue-app
+# Recommend to install locally
+npm i -D test-vue-app
+# Alternatively
+npm i -g test-vue-app
 ```
 
 ## Usage
@@ -50,7 +53,7 @@ describe('Component', () => {
 })
 ```
 
-Then run `test-vue-app` in your project as follows:
+Then run `npx test-vue-app` (when it's installed locally) or `test-vue-app` (when it's installed globally) in your project as follows:
 
 <img src="https://i.loli.net/2017/10/07/59d8e9faeb53c.png" alt="test-vue-app" width="600">
 
