@@ -14,6 +14,12 @@ yarn add test-vue-app --dev
 yarn global add test-vue-app
 ```
 
+## Works with
+
+Almost any Vue project, eg:
+- `vue-cli` [webpack template](https://github.com/vuejs-templates/webpack)
+- Projects using [Poi](https://github.com/egoist/poi)
+
 ## Usage
 
 Given a Vue component `Component.vue`:
