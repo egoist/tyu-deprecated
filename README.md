@@ -57,7 +57,7 @@ Then run `yarn/npx test-vue-app` (when it's installed locally) or `test-vue-app`
 
 <img src="https://i.loli.net/2017/10/07/59d8e9faeb53c.png" alt="test-vue-app" width="600">
 
-Note: Currently, you have to configure `.babelrc` or `babel` field in `package.json` in order to let [jest-vue](https://github.com/eddyerburgh/jest-vue) transform ES2015 code in single file component, I'm trying to make it [use babel-preset-vue-app by default](https://github.com/eddyerburgh/jest-vue/issues/10) since we transform `.js` files here with this preset by default.
+Note: Currently, `test-vue-app` works out of the box with apps using [babel-preset-vue-app](https://github.com/vuejs/babel-preset-vue-app), however you may add a `.babelrc` if you have custom needs.
 
 ### Custom jest config
 
