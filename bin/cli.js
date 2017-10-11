@@ -10,11 +10,6 @@ if (fs.existsSync('package.json')) {
   appPkg = require(path.resolve('package.json'))
 }
 
-if (!appPkg.babel && !fs.existsSync('.babelrc') && !fs.existsSync('tsconfig.json')) {
-  console.error('You need to configure ".babelrc" or "babel" field in package.json in order to let jest-vue transform ES2015 code in single file component.')
-  process.exit(1)
-}
-
 const jestConfig = appPkg.jest
 
 process.on('unhandledRejection', reason => {
