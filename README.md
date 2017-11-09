@@ -16,7 +16,7 @@ yarn global add tyu
 
 ## Works with
 
-- React components (eg. create-vue-app)
+- React components (eg. create-react-app)
 - Vue components (eg. vue-cli)
 - ...
 
