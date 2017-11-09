@@ -55,14 +55,14 @@ describe('Component', () => {
 
   test('has correct content', () => {
     const wrapper = mount(Component)
-    expect(wrapper.text()).toBe('hello world')
+    expect(wrapper.text()).toBe('Hello world')
   })
 })
 ```
 
 Then run `yarn tyu` or `npx tyu` (when it's installed locally) or `tyu` (when it's installed globally) in your project as follows:
 
-<img src="https://i.loli.net/2017/10/07/59d8e9faeb53c.png" alt="tyu" width="600">
+<img src="https://i.loli.net/2017/11/09/5a0479292f48f.png" alt="tyu" width="600">
 
 Note: Currently, `tyu` works out of the box with apps using [babel-preset-vue-app](https://github.com/vuejs/babel-preset-vue-app), however you may add a `.babelrc` file if you have custom needs. e.g. use `babel-preset-react-app` if you're testing React components.
 
