@@ -72,7 +72,7 @@ You can still configure `jest` field in `package.json`, it will be merged into o
 
 ### Custom jest cli arguments
 
-Specify disired jest cli arguments after `--`, eg:
+Specify desired [jest cli arguments](https://facebook.github.io/jest/docs/en/cli.html) after `--`, eg:
 
 ```bash
 tyu -- --watch
