@@ -1,24 +1,24 @@
 
-# test-vue-app
+# tyu
 
-[![NPM version](https://img.shields.io/npm/v/test-vue-app.svg?style=flat)](https://npmjs.com/package/test-vue-app) [![NPM downloads](https://img.shields.io/npm/dm/test-vue-app.svg?style=flat)](https://npmjs.com/package/test-vue-app) [![CircleCI](https://circleci.com/gh/vue-land/test-vue-app/tree/master.svg?style=shield)](https://circleci.com/gh/vue-land/test-vue-app/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate) [![chat](https://img.shields.io/badge/chat-on%20discord-7289DA.svg?style=flat)](https://chat.egoist.moe)
+[![NPM version](https://img.shields.io/npm/v/tyu.svg?style=flat)](https://npmjs.com/package/tyu) [![NPM downloads](https://img.shields.io/npm/dm/tyu.svg?style=flat)](https://npmjs.com/package/tyu) [![CircleCI](https://circleci.com/gh/egoist/tyu/tree/master.svg?style=shield)](https://circleci.com/gh/egoist/tyu/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate) [![chat](https://img.shields.io/badge/chat-on%20discord-7289DA.svg?style=flat)](https://chat.egoist.moe)
 
-Test Vue.js components with no configurations.
+Delightful web testing.
 
 ## Install
 
 ```bash
 # Recommend to install locally
-yarn add test-vue-app --dev
+yarn add tyu --dev
 # Alternatively
-yarn global add test-vue-app
+yarn global add tyu
 ```
 
 ## Works with
 
-Almost any Vue project, eg:
-- `vue-cli` [webpack template](https://github.com/vuejs-templates/webpack)
-- Projects using [Poi](https://github.com/egoist/poi)
+- React components (eg. create-vue-app)
+- Vue components (eg. vue-cli)
+- ...
 
 ## Usage
 
@@ -43,6 +43,7 @@ export default {
 And corresponding test file `Component.test.js`:
 
 ```js
+// You need to install vue-test-utils
 import { mount } from 'vue-test-utils'
 import Component from './Component.vue'
 
@@ -59,15 +60,23 @@ describe('Component', () => {
 })
 ```
 
-Then run `yarn/npx test-vue-app` (when it's installed locally) or `test-vue-app` (when it's installed globally) in your project as follows:
+Then run `yarn tyu` or `npx tyu` (when it's installed locally) or `tyu` (when it's installed globally) in your project as follows:
 
-<img src="https://i.loli.net/2017/10/07/59d8e9faeb53c.png" alt="test-vue-app" width="600">
+<img src="https://i.loli.net/2017/10/07/59d8e9faeb53c.png" alt="tyu" width="600">
 
-Note: Currently, `test-vue-app` works out of the box with apps using [babel-preset-vue-app](https://github.com/vuejs/babel-preset-vue-app), however you may add a `.babelrc` if you have custom needs.
+Note: Currently, `tyu` works out of the box with apps using [babel-preset-vue-app](https://github.com/vuejs/babel-preset-vue-app), however you may add a `.babelrc` file if you have custom needs. e.g. use `babel-preset-react-app` if you're testing React components.
 
 ### Custom jest config
 
 You can still configure `jest` field in `package.json`, it will be merged into our default jest config.
+
+### Custom jest cli arguments
+
+Specify disired jest cli arguments after `--`, eg:
+
+```bash
+tyu -- --watch
+```
 
 ## Contributing
 
@@ -80,7 +89,7 @@ You can still configure `jest` field in `package.json`, it will be merged into o
 
 ## Author
 
-**test-vue-app** © [EGOIST](https://github.com/egoist), Released under the [MIT](./LICENSE) License.<br>
-Authored and maintained by EGOIST with help from contributors ([list](https://github.com/egoist/test-vue-app/contributors)).
+**tyu** © [EGOIST](https://github.com/egoist), Released under the [MIT](./LICENSE) License.<br>
+Authored and maintained by EGOIST with help from contributors ([list](https://github.com/egoist/tyu/contributors)).
 
 > [egoist.moe](https://egoist.moe) · GitHub [@EGOIST](https://github.com/egoist) · Twitter [@_egoistlily](https://twitter.com/_egoistlily)
