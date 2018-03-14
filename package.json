@@ -31,13 +31,13 @@
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-jest": "^22.0.4",
-    "babel-load-config": "^1.0.0",
     "babel-preset-vue-app": "^2.0.0",
     "cac": "^4.2.4",
+    "find-babel-config": "^1.1.0",
     "jest": "^22.0.4",
-    "vue-jest": "^1.4.0",
     "lodash.merge": "^4.6.0",
-    "update-notifier": "^2.3.0"
+    "update-notifier": "^2.3.0",
+    "vue-jest": "^1.4.0"
   },
   "devDependencies": {
     "eslint-config-rem": "^3.0.0",
