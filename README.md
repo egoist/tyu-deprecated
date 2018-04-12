@@ -1,5 +1,5 @@
 
-# TYU
+![tyu](https://user-images.githubusercontent.com/8784712/32615354-9059c466-c5aa-11e7-9d1d-bc403ec55a94.png)
 
 [![NPM version](https://img.shields.io/npm/v/tyu.svg?style=flat)](https://npmjs.com/package/tyu) [![NPM downloads](https://img.shields.io/npm/dm/tyu.svg?style=flat)](https://npmjs.com/package/tyu) [![CircleCI](https://circleci.com/gh/egoist/tyu/tree/master.svg?style=shield)](https://circleci.com/gh/egoist/tyu/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate) [![chat](https://img.shields.io/badge/chat-on%20discord-7289DA.svg?style=flat)](https://chat.egoist.moe)
 
