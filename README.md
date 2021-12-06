@@ -43,8 +43,8 @@ export default {
 And corresponding test file `Component.test.js`:
 
 ```js
-// You need to install vue-test-utils
-import { mount } from 'vue-test-utils'
+// You need to install Vue Test utils
+import { mount } from '@vue/test-utils'
 import Component from './Component.vue'
 
 describe('Component', () => {
