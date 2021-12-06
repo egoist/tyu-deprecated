@@ -1,3 +1,5 @@
+# There's no update for four years and visually nonody uses it, so I'm deprecating this project now.
+
 
 ![tyu](https://user-images.githubusercontent.com/8784712/32615354-9059c466-c5aa-11e7-9d1d-bc403ec55a94.png)
 
